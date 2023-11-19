@@ -27,6 +27,11 @@
             <br>
             AJ Herget
             <br>-->
+        <div class="navbar centered-div">
+            <p>
+                AJ Herget
+            </p>
+        </div>
         <br>
         <br>
         <div class="container" style="color:white">
@@ -35,10 +40,10 @@
                 <br>
             </div>-->
                 <div class="col" style="font-family: Inter; font-weight: 100; color:white; font-size:60px">
-                    Hi, my name is AJ!<br> It's nice to meet you.
+                    Hi, I'm AJ.<br> Welcome!
                 </div>
                 <div class="col" style="text-align: center;">
-                    <img class='img-fluid w-20' src="profile_50.jpeg" alt="Me smiling">
+                    <img class='img-fluid w-20' src="mebutterfly.jpg" alt="Me smiling">
                 </div>
             </div>
             <br>
@@ -217,7 +222,7 @@
             <br>
         </div>
 
-        <script>
+        <!--<script>
             var i = 0;
             var txt = 'Welcome!';
             var speed = 100;
@@ -228,9 +233,32 @@
                 setTimeout(typeWriter, speed);
               }
             }
-        </script>
+        </script>-->
 
         <style>
+            /* The navigation bar */
+            .navbar {
+                overflow: hidden;
+                background-color: black;
+                position: fixed; /* Set the navbar to fixed position */
+                top: 0; /* Position the navbar at the top of the page */
+                width: 100%; /* Full width */
+                z-index: 1000;
+                text-align: center;
+                height: 5vh;
+            }
+            .centered-div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            /* Style the paragraph inside the centered-div */
+            .centered-div p {
+                /* Additional styles for the paragraph if needed */
+                color: crimson;
+                font-family: Inter;
+            }
         </style>
     </body>
 </html>
